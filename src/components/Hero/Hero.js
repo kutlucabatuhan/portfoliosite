@@ -17,9 +17,9 @@ const Hero = (props) => (
           I want to be a <Bold> Web3 </Bold> Developer
         </SectionText>
         <Button>
-        <Link href="#about">
+        <a href="#about">
           <NavLink>Contact Me</NavLink>
-        </Link>
+        </a>
         </Button>
       </LeftSection>
       <RightSection>
