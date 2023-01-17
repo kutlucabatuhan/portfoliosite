@@ -91,16 +91,11 @@ export const CompanyContainer = styled.div`
 
 
 export const Slogan = styled.p`
+	margin-top: 2rem;
 	color: rgba(255, 255, 255, 0.5);
-	min-width: 280px;
-	letter-spacing: 0.02em;
 	font-size: 18px;
-	line-height: 30px;
-	padding: 1.5rem 2.75rem;
+	display: block;
 	text-align: center;
-	&:hover{
-		font-weight: 300;
-	}
 
 	@media ${props => props.theme.breakpoints.md}{
 		font-size: 16px;
@@ -111,6 +106,11 @@ export const Slogan = styled.p`
 		line-height: 22px;
 		font-size: 14px;
 		min-width: 100px;
+	}
+`
+export const A = styled.a`
+&:hover{
+		font-weight: 300;
 	}
 `
 
