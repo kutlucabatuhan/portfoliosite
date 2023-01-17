@@ -129,4 +129,5 @@ export const Img = styled.img`
   height: 80px;
   padding-top: 0px;
   margin-top: 0px;
+  margin-left: 2rem;
 `;
