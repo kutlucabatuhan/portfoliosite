@@ -2,7 +2,7 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer, Hr } from './FooterStyles';
+import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer, Hr, A } from './FooterStyles';
 
 const Footer = () => {
   return (
@@ -33,9 +33,13 @@ const Footer = () => {
               <SocialIcons href='https://www.instagram.com/kutlucabatuhan/' style={{marginLeft: 20}}>
                 <i class="fa-brands fa-instagram fa-xl"></i>
               </SocialIcons>
-            <Slogan>Copyright © 2023</Slogan>
           </SocialContainer>
         </SocialIconsContainer>
+        <Slogan>
+          <A>
+            Copyright © 2023
+          </A>
+        </Slogan>
       </FooterWrapper>
     </>
   );
