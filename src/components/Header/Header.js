@@ -9,7 +9,7 @@ const Header = () =>  (
   <Container>
     <Div1>
         <a href='/' style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <Img src='./icon.png'/>
+          <Img src='./logo.png'/>
         </a>
     </Div1>
     <Div2>
