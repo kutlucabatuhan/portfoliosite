@@ -13,6 +13,8 @@ export const Container = styled.div`
     grid-template-rows: repeat(2, 60px);
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
+    padding: 0rem;
+    padding-bottom: .5rem;
   }
 `;
 
@@ -26,6 +28,7 @@ export const Div1 = styled.div`
   padding-left: 2rem; 
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 1 / 3;
+    padding-left: 1rem;
   }
 `;
 export const Div2 = styled.div`
@@ -35,7 +38,7 @@ export const Div2 = styled.div`
   padding-top: 3rem;
   margin-left: 5rem;
   @media ${(props) => props.theme.breakpoints.sm} {
-    display: none
+    display: none;
   }
 `;
 export const Div3 = styled.div`
@@ -46,7 +49,7 @@ export const Div3 = styled.div`
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
-    grid-area: 1 / 4 / 2 / 6;
+    margin-right: .5rem;
   }
 `;
 
@@ -130,4 +133,7 @@ export const Img = styled.img`
   height: 80px;
   padding-top: 0px;
   margin-top: 0px;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    height: 45px;
+  }
 `;
