@@ -23,6 +23,7 @@ export const Div1 = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
+  padding-left: 2rem; 
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 1 / 3;
   }
@@ -129,5 +130,4 @@ export const Img = styled.img`
   height: 80px;
   padding-top: 0px;
   margin-top: 0px;
-  margin-left: 2rem;
 `;
