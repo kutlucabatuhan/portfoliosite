@@ -25,7 +25,7 @@ export const Div1 = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
-  padding-left: 2rem; 
+  padding-left: 1.5rem; 
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 1 / 3;
     padding-left: 1rem;
