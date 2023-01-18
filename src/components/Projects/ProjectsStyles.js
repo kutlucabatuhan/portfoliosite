@@ -95,7 +95,6 @@ export const CardInfo = styled.p`
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
-  
 }
 `;
 
@@ -129,4 +128,11 @@ padding: 2rem;
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
+`
+
+export const P = styled.p`
+  margin-left: 2rem;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin-left: 0rem;
+  }
 `
