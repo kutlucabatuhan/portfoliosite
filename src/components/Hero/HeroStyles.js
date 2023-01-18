@@ -72,6 +72,8 @@ export const Img = styled.img`
 `;
 
 export const A = styled.a`
+  text-align: center;
+  width: ${({ alt }) => alt ? '100px' : '175px'};
   @media ${(props) => props.theme.breakpoints.sm} {
     width: ${({ alt }) => alt ? '190px' : '250px'};
   }
