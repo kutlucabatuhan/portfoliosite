@@ -86,7 +86,7 @@ export const ContactDropDown = styled.button`
     outline: none;
   }
   &:hover {
-    color: #fff;
+    color: #eaeaea;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
