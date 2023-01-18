@@ -130,7 +130,7 @@ color: #d8bfbf;
 font-size: 1.5rem;
 `
 
-export const P = styled.p`
+export const Pe = styled.p`
   margin-left: 2rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     margin-left: 0rem;
