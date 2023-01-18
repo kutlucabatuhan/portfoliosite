@@ -72,8 +72,10 @@ export const Img = styled.img`
 `;
 
 export const A = styled.a`
+  padding-top: 1.2rem;
   text-align: center;
   width: ${({ alt }) => alt ? '100px' : '175px'};
+  height: ${({ alt }) => alt ? '52px' : '55px'};
   @media ${(props) => props.theme.breakpoints.sm} {
     width: ${({ alt }) => alt ? '190px' : '250px'};
   }
