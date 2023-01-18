@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const LeftSection = styled.div`
-  text-align: center;
   margin-left: 2rem;
   width: 100%;
   @media ${(props) => props.theme.breakpoints.sm} {
