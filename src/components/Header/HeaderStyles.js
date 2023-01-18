@@ -130,7 +130,7 @@ padding: 8px;
   }
 `
 export const Img = styled.img`
-  height: 80px;
+  height: 60px;
   padding-top: 0px;
   margin-top: 0px;
   @media ${(props) => props.theme.breakpoints.sm} {
