@@ -33,7 +33,7 @@ export const SectionTitle = styled.h2`
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding: ${(props) => props.main ? '2rem 0 0 0' : '0'};
+  padding: ${(props) => props.main ? '3rem 0 0 0' : '0'};
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: ${(props) => props.main ? '56px' : '48px'};
@@ -56,10 +56,11 @@ export const SectionTitle = styled.h2`
 `
 
 export const SectionText = styled.p`
+  display: inline-block;
   max-width: 800px;
   font-size: 30px;
   font-weight: 200;
-  padding-bottom: 3.6rem;
+  margin-bottom: 3.6rem;
   color: #eaeaea;
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -73,6 +74,7 @@ export const SectionText = styled.p`
     font-size: 16px;
     margin-top: 1rem;
     padding-bottom: 0;
+    margin-bottom: 0rem;
   }
 `
 
