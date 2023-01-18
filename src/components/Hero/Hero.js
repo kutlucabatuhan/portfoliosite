@@ -22,7 +22,7 @@ const Hero = (props) => (
       </LeftSection>
       <RightSection>
         <a href='/' style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <Img src='./profile.png'/>
+          <Img src='./profile2.png'/>
         </a>
       </RightSection>
       
