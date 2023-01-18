@@ -77,7 +77,7 @@ export const A = styled.a`
   width: ${({ alt }) => alt ? '100px' : '175px'};
   height: ${({ alt }) => alt ? '52px' : '55px'};
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding-top: 1.7rem;
+    padding-top: 1.8rem;
     width: ${({ alt }) => alt ? '190px' : '250px'};
     height: ${({ alt }) => alt ? '52px' : '55px'};
   }
