@@ -42,6 +42,15 @@ export const RightSection = styled.div`
 
 export const NavLink = styled.a`
   color: #eaeaea;
+  padding-top: 1.2rem;
+  text-align: center;
+  width: 175px;
+  height: 55px;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding-top: 1.8rem;
+    width: 250px;
+    height: 55px;
+  }
 `;
 
 export const Hr = styled.hr`
@@ -70,15 +79,3 @@ export const Img = styled.img`
     width: 100%;
   }
 `;
-
-export const A = styled.a`
-  padding-top: 1.2rem;
-  text-align: center;
-  width: 175px;
-  height: 55px;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    padding-top: 1.8rem;
-    width: 250px;
-    height: 55px;
-  }
-`
