@@ -3,7 +3,7 @@ import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection, RightSection, Hr, Thin, Bold, Img, NavLink } from './HeroStyles';
+import { LeftSection, RightSection, Hr, Thin, Bold, Img, NavLink, A } from './HeroStyles';
 
 const Hero = (props) => (
   <>
@@ -17,9 +17,9 @@ const Hero = (props) => (
           I want to be a <Bold> Web3 </Bold> Developer
         </SectionText>
         <Button>
-        <a href="#about">
+        <A href="#about">
           <NavLink>Contact Me</NavLink>
-        </a>
+        </A>
         </Button>
       </LeftSection>
       <RightSection>
