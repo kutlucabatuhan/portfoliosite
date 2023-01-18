@@ -31,7 +31,7 @@ const Header = () =>  (
     </Div2>
     <Div3>
         <SocialIcons href='https://github.com/kutlucabatuhan'>
-          <i class="fa-brands fa-github fa-xl"></i>
+          <i class="fa-brands fa-github fa-xl" style={{color: "#eb1d36"}}></i>
         </SocialIcons>
         <SocialIcons href='https://www.linkedin.com/in/batuhan-kutluca-51299215a/'>
           <i class="fa-brands fa-linkedin fa-xl" style={{color: "#eb1d36"}}></i>
