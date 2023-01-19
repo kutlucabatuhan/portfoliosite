@@ -16,7 +16,7 @@ export const LeftSection = styled.div`
     flex-direction: column;
     margin: 1.5rem auto;
     position: relative;
-    top: 260px;
+    top: 270px;
     text-align: center;
   }
 `;
@@ -38,8 +38,8 @@ export const RightSection = styled.div`
     flex-direction: column;
     margin: 1.5rem auto;
     position: relative;
-    top: -190px;
-    margin-bottom: -1rem;
+    top: -170px;
+    margin-bottom: 0rem;
   }
 `;
 
