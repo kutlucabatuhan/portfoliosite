@@ -14,7 +14,7 @@ place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
 margin-bottom: 10rem;
-@media ${(props) => props.theme.breakpoints.sm} {
+@media ${(props) => props.theme.breakpoints.md} {
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -30,17 +30,24 @@ export const BlogCard = styled.div`
   width: 400px;
   margin-bottom: 2rem;
   transition: 0.4s;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    width: 100%;
+  @media ${(props) => props.theme.breakpoints.md} {
+    width: 80%;
     padding: 0 1.5rem;
   }&:hover{
     box-shadow: 0px 0px 40px #eb1d36;
     width: 403px;
     display:block;
-    @media ${(props) => props.theme.breakpoints.sm} {
-      width: 102%;
+    @media ${(props) => props.theme.breakpoints.md} {
+      width: 85%;
     }
 }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 95%;
+  }&:hover{
+    @media ${(props) => props.theme.breakpoints.sm} {
+      width: 97%;
+    }
+  }
 `;
 export const TitleContent = styled.div`
   text-align: left;
@@ -48,7 +55,7 @@ export const TitleContent = styled.div`
   z-index: 20;
   width: 100%;
   height: 100%;
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     margin-left: 0;
   }
 `;
@@ -61,7 +68,7 @@ export const HeaderThree = styled.h3`
   padding-top: 2rem;
   padding-bottom:1rem;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     text-align: center;
   }
 `;
@@ -93,7 +100,7 @@ export const CardInfo = styled.p`
   font-style: 2.5rem;
   line-height: 24px;
   text-align: justify;
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     padding:.3rem
 }
 `;
@@ -132,7 +139,7 @@ font-size: 1.5rem;
 
 export const Pe = styled.p`
   margin-left: 2rem;
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     margin-left: 0rem;
   }
 `
