@@ -32,7 +32,6 @@ export const BlogCard = styled.div`
   transition: 0.4s;
   @media ${(props) => props.theme.breakpoints.md} {
     width: 80%;
-    padding: 0 1.5rem;
   }&:hover{
     box-shadow: 0px 0px 40px #eb1d36;
     width: 403px;
@@ -101,7 +100,7 @@ export const CardInfo = styled.p`
   line-height: 24px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.md} {
-    padding:.3rem
+    padding: 0 1.5rem;
 }
 `;
 
