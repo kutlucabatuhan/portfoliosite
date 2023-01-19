@@ -39,7 +39,7 @@ export const RightSection = styled.div`
     margin: 1.5rem auto;
     position: relative;
     top: -190px;
-    margin-bottom: -2rem;
+    margin-bottom: -1rem;
   }
 `;
 
