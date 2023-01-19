@@ -7,7 +7,7 @@ export const Container = styled.div`
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
   padding: 1rem;
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 60px);
@@ -26,7 +26,7 @@ export const Div1 = styled.div`
   flex-direction: row;
   align-content: center;
   padding-left: 1.5rem; 
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     grid-area: 1 / 1 / 1 / 3;
     padding-left: 1rem;
   }
@@ -37,7 +37,7 @@ export const Div2 = styled.div`
   justify-content: space-around;
   padding-top: 2rem;
   margin-left: 5rem;
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     display: none;
   }
 `;
@@ -47,7 +47,7 @@ export const Div3 = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     align-items: center;
     margin-right: .5rem;
   }
@@ -63,7 +63,7 @@ export const NavLink = styled.a`
     opacity: 1;
     cursor: pointer;
   }
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     padding: 0.5rem;
     margin-top: -2rem;
   }
@@ -89,11 +89,8 @@ export const ContactDropDown = styled.button`
     color: #eaeaea;
   }
 
-  @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.4rem 0;
-  }
   @media ${(props) => props.theme.breakpoints.md} {
-    padding: 0;
+    padding: 0.4rem 0;
   }
 `;
 
@@ -133,7 +130,7 @@ export const Img = styled.img`
   height: 60px;
   padding-top: 0px;
   margin-top: 0px;
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     height: 45px;
   }
 `;
