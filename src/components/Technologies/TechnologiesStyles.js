@@ -11,11 +11,6 @@ export const ImageContainer = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media ${props => props.theme.breakpoints.lg} {
-    background-image: none;
-    padding: 0;
-    margin-top: 40px;
-  }
   @media ${props => props.theme.breakpoints.md} {
     background-image: none;
     padding: 0;
@@ -34,10 +29,6 @@ export const List = styled.ul`
   gap: 40px;
   margin: 3rem 0;
   margin-bottom: 5rem;
-  
-  @media ${props => props.theme.breakpoints.lg}{
-    margin: 64px 0;
-  }
 
   @media ${props => props.theme.breakpoints.md}{
     margin: 64px 0;
