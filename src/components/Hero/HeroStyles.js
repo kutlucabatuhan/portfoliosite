@@ -3,20 +3,13 @@ import styled from 'styled-components';
 export const LeftSection = styled.div`
   margin-left: 2rem;
   width: 100%;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 2rem;
-    padding-top: 1.5rem;
-  }
   @media ${(props) => props.theme.breakpoints.md} {
     width: 100%;
     display: flex;
     flex-direction: column;
     margin: 1.5rem auto;
     position: relative;
-    top: 270px;
+    top: 275px;
     text-align: center;
   }
 `;
@@ -25,21 +18,14 @@ export const RightSection = styled.div`
   text-align: center;
   width: 700px;
   margin-bottom: 15rem;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    padding-top: 1.5rem;
-  }
   @media ${(props) => props.theme.breakpoints.md} {
     width: 100%;
     display: flex;
     flex-direction: column;
     margin: 1.5rem auto;
     position: relative;
-    top: -170px;
-    margin-bottom: 0rem;
+    top: -160px;
+    margin-bottom: 2rem;
   }
 `;
 
@@ -49,7 +35,7 @@ export const NavLink = styled.a`
   text-align: center;
   width: 100%;
   height: 100%;
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     width: 100%;
     height: 100%;
   }
